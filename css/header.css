@@ -49,7 +49,7 @@
 }
 
 .toggle{
-    width: 1.12rem;
+    width: 50px;
     display: flex;
     gap: .5;
     position: absolute;
