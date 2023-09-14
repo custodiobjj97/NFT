@@ -49,6 +49,7 @@
 }
 
 .toggle{
+    padding:1rem;
     width: 30px;
     display: flex;
     gap: .5;
