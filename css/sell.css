@@ -1,0 +1,50 @@
+.sell{
+    padding: 120px 12px;
+}
+
+.sell h2{
+    font-size: var(--font-mobile);
+    margin-bottom: var(--margin-bottom);
+}
+
+.group-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.box{
+    padding: 1.5rem;
+    text-align: center;
+    display: block;
+    background-color: var(--color-gray);
+    border-radius: 5px;
+}
+
+.border {
+    border-radius: 5px;
+    border: 1px solid var(--color-item);
+    padding: .56rem;
+    transition: .4s;
+}
+
+.border:hover {
+    border: 1px solid var(--color-yellow);
+}
+
+.box h4{
+    margin: var(--margin-bottom) 0px;
+}
+.box p{
+    margin-bottom: var(--margin-bottom);
+}
+
+
+@media (min-width:920px){
+    .group-box{
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px;
+    }
+}

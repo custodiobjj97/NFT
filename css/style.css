@@ -1,0 +1,27 @@
+/*global*/
+@import "global.css";
+@import "header.css";
+
+
+/*main*/
+@import "main/home.css";
+@import "main/item.css";
+
+/*sell*/
+@import "sell.css";
+
+/*product*/
+@import "product.css";
+
+
+/*seller*/
+@import "seller.css";
+
+
+/*footer*/
+@import "footer.css";
+
+
+/*scroll*/
+
+@import "scroll.css";
